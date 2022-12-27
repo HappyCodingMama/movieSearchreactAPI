@@ -1,0 +1,21 @@
+.movieTitle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70px;
+  margin-top: 4.5rem;
+  padding: 0 2rem;
+  color: var(--white);
+  font-family: var(--headingFont);
+  font-size: 1.2rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.793), rgba(27, 45, 64, 0));
+}
+
+.movieTitle-container a {
+  color: var(--blue-light);
+}
+
+.movieTitle-container span {
+  padding-right: 10px;
+}

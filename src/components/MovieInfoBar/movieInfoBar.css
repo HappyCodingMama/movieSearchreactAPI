@@ -1,0 +1,38 @@
+.infoBar-column {
+  height: 3rem;
+  display: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 0 20px;
+  flex: 1;
+  padding: 12px 0;
+  background: var(--grey-600);
+  font-family: var(--headingFont);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.infoBar-column:first-child {
+  margin-left: 0;
+}
+
+.infoBar-column:last-child {
+  margin-right: 0;
+}
+
+.infoBar-container {
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .infoBar-container {
+    display: block;
+  }
+  .infoBar-column {
+    margin: 20px 0;
+  }
+}

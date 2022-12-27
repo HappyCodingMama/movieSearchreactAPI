@@ -1,0 +1,88 @@
+.movieInfo-container {
+  width: 100%;
+}
+
+.movieInfo-contents {
+  display: flex;
+  margin: 0;
+
+  padding: 40px 40px;
+  background: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  color: var(--white);
+}
+
+.movieInfo_text {
+  width: 100%;
+  padding: 20px 40px;
+  overflow: hidden;
+}
+
+.movieInfo_text h5 {
+  color: var(--blue-light);
+}
+
+.movieInfo_text span {
+  color: var(--white);
+}
+
+.rating-directors {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.director {
+  margin: 0 0 0 40px;
+}
+
+.movieInfo-img img {
+  width: 450px;
+  border-radius: 20px;
+}
+
+/* actors Image */
+.actors-container {
+  width: 100%;
+}
+.actorsImage {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  gap: 10px;
+  color: var(--white);
+  padding: 5px;
+  text-align: center;
+}
+.actorsImage img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.actorsImage p {
+  font-family: var(--headingFont);
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
+.actorsImage small {
+  font-family: var(--headingFont);
+  text-transform: uppercase;
+  color: var(--blue-light);
+}
+
+.rate-container {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .movieInfo-contents {
+    display: block;
+    max-height: none;
+  }
+  .movieInfo-container img {
+    width: 96%;
+  }
+  .actorsImage {
+    grid-template-columns: repeat(2, 150px);
+  }
+}

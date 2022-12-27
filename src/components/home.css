@@ -1,0 +1,9 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.loadmore-btn {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
